@@ -11,6 +11,14 @@
 - cetak bukti peminjaman dan pengembalian barang
 - cetak laporan barang masuk, keluar, dan stok barang
 
+## Setup
+
+- Rename file `env` menjadi `.env`
+- rename folder `_vendor` menjadi `vendor`
+- masuk ke direktori `public/template/` lalu rename folder `_vendor` menjadi `vendor`
+- import database yang ada di folder `db/inventory.sql`
+- run app dengan mengetikkan perintah `php spark serve` pada terminal
+
 ## Akun Test
 
 - admin
@@ -37,4 +45,8 @@ username : ritwancuy
 
 password : ridwan123
 
-## Untuk Database Ada di Folder Public/db/inventory.sql
+## Contact
+
+- [Facebook](https://web.facebook.com/fahrul.adib/)
+- [LinkedIn](https://www.linkedin.com/in/fahrul-adib-560937245/)
+- [Instagram](https://www.instagram.com/fahruladib9/)
