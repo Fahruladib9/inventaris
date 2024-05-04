@@ -35,7 +35,7 @@ class C_Home extends BaseController
         $data['jumlahPengajuanPengembalian'] = $this->pengembalian->where([
             'status' => 'diproses'
         ])->selectCount('status')->first()->status;
-        // return view('home', $data);
-        dd($data);
+        return view('home', $data);
+        // dd($data);
     }
 }
