@@ -1,0 +1,82 @@
+
+    @page { size: A4 }
+  
+    h1 {
+        font-weight: bold;
+        font-size: 16pt;
+        text-align: center;
+        line-height: 0.5;
+    }
+    .banyuasin {
+        width: 90px;
+        position: absolute;
+    }
+    .tut-wuri {
+        width: 90px;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        margin-top: -8px;
+    }
+    hr {
+        border: none;
+        border-top: 2px solid black;
+      }
+    .satu {
+        font-size: 21pt;
+        line-height: 0.5;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 14pt;
+        text-align: center;
+        line-height: 0.5;
+    }
+    .alamat {
+        font-weight: bold;
+        font-size: 11pt;
+        text-align: center;
+        line-height: 0.5;
+    }
+    /* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Baris */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  /* Kolom */
+  .col {
+    flex: 1 0 0%;
+    padding: 0 10px;
+  }
+ .kode-peminjaman {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16pt;
+  }
+ .nama {
+    text-align: left;
+  }
+ .nama-barang {
+    text-align: left;
+  }
+ .jumlah {
+    text-align: left;
+  }
+ .keterangan {
+    text-align: left;
+  }
+ .tanggal-peminjaman {
+    text-align: left;
+  }
+ .tanggal-pengembalian {
+    text-align: left;
+  }
